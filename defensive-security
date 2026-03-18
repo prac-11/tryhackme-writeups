@@ -1,1 +1,26 @@
+# Defensive Security Intro
 
+Platform: TryHackMe
+
+## Objective
+Understand the basics of defensive security and how incidents are monitored and analyzed.
+
+## Tool Used
+SIEM (Security Information and Event Management)
+
+## What the Tool Does
+A SIEM collects logs from different systems and helps analysts detect and investigate security incidents.
+
+## Output Meaning
+The SIEM shows alerts and logs that indicate suspicious or malicious activity.
+It does not prevent attacks, but helps in detecting and responding to them.
+
+## What I Discovered
+- How security teams monitor systems using logs
+- How alerts are generated for suspicious activity
+- Basic idea of incident investigation
+
+## Key Learning
+- Defensive security focuses on detection and response
+- SIEM tools are used to analyze logs and identify threats
+- Systems are not fully secure; they are continuously monitored
