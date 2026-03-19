@@ -1,0 +1,41 @@
+# What is Networking
+
+Platform: TryHackMe  
+Room: What is Networking
+
+## Objective
+Understand basic networking concepts such as IP addressing, ICMP, and communication between devices.
+
+## Tool Used
+ping
+
+## Command
+ping -c 4 <target-ip>
+
+## What the Tool Does
+Ping sends ICMP echo requests to a target system to check connectivity.
+
+## Output Meaning
+- If replies are received → the host is reachable
+- If no reply → host may be down, blocked, or unreachable
+- Shows round-trip time (latency)
+
+## Key Concepts
+- IP Address: Identifies a device on a network
+- Public IP: Used to identify a device on the internet
+- Private IP: Used within local networks
+- ICMP: Protocol used for communication between network devices (used by ping)
+- MAC Address: Unique identifier of a network interface
+  - First half → vendor (manufacturer)
+  - Second half → unique device ID
+
+## What I Discovered
+- Devices communicate using IP addresses
+- MAC addresses can be spoofed
+- ICMP is used for basic network diagnostics
+- Ping helps check if a system is reachable
+
+## Key Learning
+- Networking is fundamental for all cybersecurity tasks
+- Understanding IP and communication is necessary before scanning or attacking systems
+- Connectivity testing is the first step before deeper analysis
